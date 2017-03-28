@@ -1,6 +1,61 @@
 # Perchwire
 
-*September 2016*
+### March 2017 Update
+
+I do not use this repository. In the fall of 2016, I created a new GitHub account at <https://github.com/perchwire>. The repository is found at <https://github.com/perchwire/perchwire.github.io>, and it's used to maintain the website <http://perchwire.com>, which is kind of a mirror of <http://babyutoledo.com>. 
+
+BabyUToledo.com is managed by my Grebe code. It's hosted at Digital Ocean. My code stores web pages in memcached. If the Nginx web server cannot find the requested web page in memcached, then my code is accessed, which dynamically creates the HTML page by pulling the formatted article body from MySQL and creating the final HTML page, using HTML::Template. Then the page is stuffed into memcached before being sent to the user. A refresh of this page would be pulled from memcached.
+
+Perchwire.com was my attempt to recreate the BabyUToledo.com website, using GitHub Pages, which uses Jekyll. I'm not using a local install of git nor Jekyll to maintain Perchwire.com. I'm creating and updating articles, layouts, includes, etc. by using a web browser while logged into the Perchwire GitHub account. Sometimes, I use the Prose.io web browser editor, but mostly I rely on GitHub's simple web editing interface.
+
+<http://www.perchwire.com/about-perchwire> - it's similar to the old explanation below about using GitHub Pages.
+
+I bought the Perchwire.comm domain through Route 53, which is part of Amazon Web Services. I enjoy maintaining a website with GitHub pages. If I was a non-programmer and had not created multiple web publishing apps that I use at server hosting  companies, then I would use GitHub Pages to host my content, since most of what I do can be handled by a static site generator.
+
+I'm considering transitiong babyutoledo.com from my Grebe setup to the GitHub Pages setup. I wrote most of the pages at babyutoledo.com in Textile. Grebe supports Markdown/MultiMarkdown too. I create new pages in Markdown, which makes it easier to copy to Perchwire. 
+
+Speed-wise, the two setups are similar, thanks to Grebe/babyutoledo.com using memcached.
+
+<https://www.webpagetest.org/result/170325_9M_1NC>
+<http://babyutoledo.com/607/baby-university-board-members>
+From: Dulles, VA - Chrome - Cable
+3/24/2017, 8:42:31 PM
+
+First View Fully Loaded:
+0.818s
+16 requests
+171 KB
+Cost $
+
+Repeat View Fully Loaded:
+0.482s
+1 request
+6 KB
+
+
+---
+
+<https://www.webpagetest.org/result/170325_KM_1NS>
+<http://www.perchwire.com/baby-university-board-members>
+From: Dulles, VA - Chrome - Cable
+3/24/2017, 8:43:06 PM
+
+First View Fully Loaded
+0.845s
+14 requests
+178 KB
+Cost $
+
+Repeat View Fully Loaded
+0.449s
+1 request
+6 KB
+
+
+
+
+
+### September 2016
 
 Earlier this year, I read the 2012 post by Development Seed, titled [How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites).
 
@@ -14,7 +69,7 @@ I'm building this test website by using Jekyll with GitHub pages, but I'm not us
 I'm using GitHub's web browser editor to create, update, and commit pages, which should allow me to create and edit posts from any device.
 
 
-### Initial Steps
+#### Initial Steps
 
 I created a new GitHub account with username perchwire.
 
@@ -30,7 +85,7 @@ It only took minutes to create the new GitHub account, fork Barry Clark's reposi
 
 
 
-### Custom Domain Name
+#### Custom Domain Name
 
 From the Smashing Magazine article:
 
@@ -53,7 +108,7 @@ Easy. Fascinating.
 
 
 
-### Jekyll Help
+#### Jekyll Help
 
 * [YAML Front Matter](http://jekyllrb.com/docs/frontmatter)
 * [Variables](http://jekyllrb.com/docs/variables)
@@ -61,7 +116,7 @@ Easy. Fascinating.
 
 
 
-### Other Forkable Themes
+#### Other Forkable Themes
 
 And repositories to view for help.
 
