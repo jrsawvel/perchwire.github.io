@@ -16,40 +16,40 @@ I'm considering transitiong babyutoledo.com from my Grebe setup to the GitHub Pa
 
 Speed-wise, the two setups are similar, thanks to Grebe/babyutoledo.com using memcached.
 
-<https://www.webpagetest.org/result/170325_9M_1NC>
-<http://babyutoledo.com/607/baby-university-board-members>
-From: Dulles, VA - Chrome - Cable
-3/24/2017, 8:42:31 PM
+<https://www.webpagetest.org/result/170325_9M_1NC>  
+<http://babyutoledo.com/607/baby-university-board-members>  
+From: Dulles, VA - Chrome - Cable  
+3/24/2017, 8:42:31 PM  
 
-First View Fully Loaded:
-0.818s
-16 requests
-171 KB
-Cost $
+First View Fully Loaded:  
+0.818s  
+16 requests  
+171 KB  
+Cost $  
 
-Repeat View Fully Loaded:
-0.482s
-1 request
-6 KB
+Repeat View Fully Loaded:  
+0.482s  
+1 request  
+6 KB  
 
 
 ---
 
-<https://www.webpagetest.org/result/170325_KM_1NS>
-<http://www.perchwire.com/baby-university-board-members>
-From: Dulles, VA - Chrome - Cable
-3/24/2017, 8:43:06 PM
+<https://www.webpagetest.org/result/170325_KM_1NS>  
+<http://www.perchwire.com/baby-university-board-members>  
+From: Dulles, VA - Chrome - Cable  
+3/24/2017, 8:43:06 PM  
 
-First View Fully Loaded
-0.845s
-14 requests
-178 KB
-Cost $
+First View Fully Loaded  
+0.845s  
+14 requests  
+178 KB  
+Cost $  
 
-Repeat View Fully Loaded
-0.449s
-1 request
-6 KB
+Repeat View Fully Loaded  
+0.449s  
+1 request  
+6 KB  
 
 
 
